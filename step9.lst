@@ -1,0 +1,262 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 8
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: PbSO4
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Pb        31.06170  13.06370  18.44200   5.96960   0.69020   2.35760   8.61800  47.25790  13.41180
+ S          6.90530   5.20340   1.43790   1.58630   1.46790  22.21510   0.25360  56.17200   0.86690
+ O          3.04850   2.28680   1.54630   0.86700  13.27710   5.70110   0.32390  32.90890   0.25080
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Pb      Nat. Abund.    207.200    0.940
+ S       Nat. Abund.     32.060    0.285
+ O       Nat. Abund.     15.999    0.581
+
+ Space Group: P n m a
+ The lattice is centrosymmetric primitive orthorhombic
+ The Laue symmetry is mmm
+ The lattice point group is mmm
+ Multiplicity of a general site is 8
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ ( 1)     X,     Y,     Z 
+ ( 2) 1/2-X, 1/2+Y, 1/2+Z 
+ ( 3)     X, 1/2-Y,     Z 
+ ( 4) 1/2-X,    -Y, 1/2+Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     Pb     Pb     XU   0.18747   0.25000   0.16718   1.000   m(y)    4    I 0.02017                                                
+      S      S     XU   0.06458   0.25000   0.68412   1.000   m(y)    4    I 0.00607                                                
+     O1      O     XU  -0.09344   0.25000   0.59561   1.000   m(y)    4    I 0.02244                                                
+     O2      O     XU   0.19367   0.25000   0.54210   1.000   m(y)    4    I 0.01341                                                
+     O3      O     XU   0.08071   0.02723   0.80930   1.000      1    8    I 0.01374                                                
+
+ Unit cell: a = 8.47344 b = 5.39399 c = 6.95457 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 317.863 Refine? True
+
+ Spherical harmonics texture: Order:0
+
+ Phase: PbSO4 in histogram: PWDR PBSO4.CWN Bank 1
+=======================================================================================================================================
+ Phase fraction  :          1 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D22         D33
+ values:           0           0           0
+ refine:       False       False       False
+
+ Phase: PbSO4 in histogram: PWDR PBSO4.XRA Bank 1
+=======================================================================================================================================
+ Phase fraction  :          1 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       0.180 Refine? True
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1192.7 Refine? True
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D22         D33
+ values:  -2.295e-05  -5.919e-05  -3.303e-05
+ refine:        True        True        True
+
+ Histogram: PWDR PBSO4.CWN Bank 1 histogram Id: 1
+=======================================================================================================================================
+ Instrument type: Debye-Scherrer
+ Histogram limits:    19.00 deg to   153.00 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale    Absorption     DisplaceX     DisplaceY
+ value :     8698.3273        0.0000     3109.3989      106.4589
+ refine:          True         False          True          True
+
+ Instrument Parameters:
+ name  :     Azimuth        Bank         Lam    Polariz.        SH/L           U           V
+ value :    0.000000    1.000000    1.909000    0.000000    0.002000  354.031000 -760.404000
+ refine:                   False       False       False       False        True        True
+
+ name  :           W           X           Y           Z        Zero
+ value :  651.592000    0.000000    0.000000    0.000000   -0.001000
+ refine:        True       False       False       False       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:    221.335    24.533    -3.734
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Histogram: PWDR PBSO4.XRA Bank 1 histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Bragg-Brentano
+ Histogram limits:    16.00 deg to   158.40 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ value :       10.1321       75.2707        0.0000        0.0000        0.0000
+ refine:          True          True         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth        Bank I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L
+ value :    0.000000    1.000000    0.500000    1.540500    1.544300    0.700000    0.002000
+ refine:                   False       False                               False       False
+
+ name  :           U           V           W           X           Y           Z        Zero
+ value :    2.000000   -2.000000    5.000000    0.000000    0.000000    0.000000    0.000000
+ refine:        True        True        True       False       False       False       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:    145.944    77.037    35.203
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 9 No. of observations: 8378 No. of parameters: 41 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =   11.723s,    2.931s/cycle, for 4 cycles
+ wR =    6.54%, chi**2 =      42638.1, GOF =   2.26
+
+ Phases:
+ Result for phase: PbSO4
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.013926004    0.034371280    0.020676484    0.000000000    0.000000000    0.000000000
+  esds  :    0.000000586    0.000001485    0.000000917                                             
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:    8.473966    5.393891    6.954432     90.0000     90.0000     90.0000     317.871
+  esds  :    0.000178    0.000117    0.000154                                           0.019
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     Pb     Pb:
+ values:   0.18754   0.25000   0.16728   1.000 0.02146
+ sig   :   0.00007             0.00011         0.00021
+      S      S:
+ values:   0.06473   0.25000   0.68339   1.000 0.00785
+ sig   :   0.00028             0.00037         0.00054
+     O1      O:
+ values:  -0.09297   0.25000   0.59542   1.000 0.02535
+ sig   :   0.00021             0.00022         0.00047
+     O2      O:
+ values:   0.19358   0.25000   0.54255   1.000 0.01778
+ sig   :   0.00020             0.00026         0.00043
+     O3      O:
+ values:   0.08081   0.02700   0.80925   1.000 0.01746
+ sig   :   0.00013   0.00018   0.00016         0.00030
+
+ Density: 6.3368 g/cm**3
+
+ Phase: PbSO4 in histogram: PWDR PBSO4.CWN Bank 1
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 3.87%, 5.31% on 198 reflections
+ Durbin-Watson statistic = 0.262
+ Bragg intensity sum = 4.43e+05
+
+ Phase: PbSO4 in histogram: PWDR PBSO4.XRA Bank 1
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 4.30%, 7.59% on 382 reflections
+ Durbin-Watson statistic = 0.615
+ Bragg intensity sum = 1.6e+06
+
+ Size model:     isotropic equatorial:     0.28513, sig:  0.0142 LG mix coeff.:      1.0000
+
+ Mustrain model: isotropic
+ equatorial:      1906.2, sig:    78.6 LG mix coeff.:      1.0000
+
+ Hydrostatic/elastic strain:
+ name  :         D11         D22         D33
+ value :  -2.112e-05  -5.987e-05  -3.356e-05
+ sig   :   6.739e-07   1.699e-06   1.045e-06
+
+ Histogram: PWDR PBSO4.CWN Bank 1 histogram Id: 1
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 4.54% on 2681 observations in this histogram
+ Other residuals: R = 3.76%, R-bkg = 3.76%, wR-bkg = 4.54% wRmin = 1.88%
+ Instrument type: Debye-Scherrer
+
+ Resonant neutron scattering lengths:
+ Element:       Pb        S        O
+ b'     :    0.000    0.000    0.000
+ b"     :    0.000    0.000    0.000
+
+ Sample Parameters:
+ names :         Scale    Absorption     DisplaceX     DisplaceY
+ values:     9247.2698        0.0000     3157.7559       99.7455
+ sig   :       30.5056                     47.1017       60.6352
+
+ Instrument Parameters:
+ names :        Bank         Lam    Polariz.        SH/L           U           V
+ value :    1.000000    1.909000    0.000000    0.002000  289.207694 -863.115819
+ sig   :                                                    5.966329   13.407151
+
+ Instrument Parameters:
+ names :           W           X           Y           Z        Zero
+ value :  833.009339    0.000000    0.000000    0.000000   -0.001000
+ sig   :    6.895348                                                
+
+ Background function: chebyschev-1
+ value :      224.9     35.63    0.3082
+ sig   :     0.5156    0.7692    0.6041
+ Background sums: empirical 6.03e+05, Debye 0, peaks 0, Total 6.03e+05
+
+ Histogram: PWDR PBSO4.XRA Bank 1 histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 10.61% on 5697 observations in this histogram
+ Other residuals: R = 8.03%, R-bkg = 8.04%, wR-bkg = 10.61% wRmin = 4.87%
+ Instrument type: Bragg-Brentano
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:       Pb        S        O
+ f'     :   -4.078    0.333    0.049
+ f"     :    8.501    0.557    0.032
+
+ Sample Parameters:
+ names :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ values:       10.2582       76.1903        0.0000        0.0000        0.0000
+ sig   :        0.0305        0.6434                                          
+
+ Instrument Parameters:
+ names :           U           V           W           X           Y           Z        Zero
+ value :  -15.401373  -10.148283   13.331002    0.000000    0.000000    0.000000    0.000000
+ sig   :    0.620499    1.317362    0.554844                                                
+
+ Background function: chebyschev-1
+ value :        146     77.42      28.3
+ sig   :     0.7256    0.9776     0.802
+ Background sums: empirical 7.78e+05, Debye 0, peaks 0, Total 7.78e+05

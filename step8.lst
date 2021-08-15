@@ -1,0 +1,263 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 8
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: PbSO4
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Pb        31.06170  13.06370  18.44200   5.96960   0.69020   2.35760   8.61800  47.25790  13.41180
+ S          6.90530   5.20340   1.43790   1.58630   1.46790  22.21510   0.25360  56.17200   0.86690
+ O          3.04850   2.28680   1.54630   0.86700  13.27710   5.70110   0.32390  32.90890   0.25080
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Pb      Nat. Abund.    207.200    0.940
+ S       Nat. Abund.     32.060    0.285
+ O       Nat. Abund.     15.999    0.581
+
+ Space Group: P n m a
+ The lattice is centrosymmetric primitive orthorhombic
+ The Laue symmetry is mmm
+ The lattice point group is mmm
+ Multiplicity of a general site is 8
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ ( 1)     X,     Y,     Z 
+ ( 2) 1/2-X, 1/2+Y, 1/2+Z 
+ ( 3)     X, 1/2-Y,     Z 
+ ( 4) 1/2-X,    -Y, 1/2+Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     Pb     Pb     XU   0.18820   0.25000   0.16700   1.000   m(y)    4    I 0.01000                                                
+      S      S     XU   0.06300   0.25000   0.68600   1.000   m(y)    4    I 0.01000                                                
+     O1      O     XU  -0.09500   0.25000   0.60000   1.000   m(y)    4    I 0.01000                                                
+     O2      O     XU   0.18100   0.25000   0.54300   1.000   m(y)    4    I 0.01000                                                
+     O3      O     XU   0.08500   0.02600   0.80600   1.000      1    8    I 0.01000                                                
+
+ Unit cell: a = 8.47335 b = 5.39442 c = 6.95523 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 317.915 Refine? True
+
+ Spherical harmonics texture: Order:0
+
+ Phase: PbSO4 in histogram: PWDR EBTL31.fxye Bank 1
+=======================================================================================================================================
+ Phase fraction  :          1 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       5.752 Refine? True
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      7506.8 Refine? True
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D22         D33
+ values:   3.255e-05   8.399e-05  -7.089e-05
+ refine:        True        True        True
+
+ Phase: PbSO4 in histogram: PWDR PBSO4.CWN Bank 1
+=======================================================================================================================================
+ Phase fraction  :          1 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D22         D33
+ values:           0           0           0
+ refine:       False       False       False
+
+ Histogram: PWDR EBTL31.fxye Bank 1 histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Bragg-Brentano
+ Histogram limits:     5.01 deg to    79.99 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ value :        0.1263        0.0000        0.0000        0.0000        0.0000
+ refine:          True          True         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth        Bank I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L
+ value :    0.000000    1.000000    0.500000    1.540500    1.544300    0.700000    0.002000
+ refine:                   False       False                               False       False
+
+ name  :           U           V           W           X           Y           Z        Zero
+ value :    2.000000   -2.000000    5.000000    0.000000    0.000000    0.000000    0.000000
+ refine:       False       False       False       False       False       False       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:   3647.741 -3924.465  1486.580
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Histogram: PWDR PBSO4.CWN Bank 1 histogram Id: 1
+=======================================================================================================================================
+ Instrument type: Debye-Scherrer
+ Histogram limits:    10.00 deg to   155.85 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale    Absorption     DisplaceX     DisplaceY
+ value :     7412.8323        0.0000        0.0000        0.0000
+ refine:          True         False          True          True
+
+ Instrument Parameters:
+ name  :     Azimuth        Bank         Lam    Polariz.        SH/L           U           V
+ value :    0.000000    1.000000    1.909000    0.000000    0.002000  354.031000 -760.404000
+ refine:                   False       False       False       False       False       False
+
+ name  :           W           X           Y           Z        Zero
+ value :  651.592000    0.000000    0.000000    0.000000   -0.001000
+ refine:       False       False       False       False       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:    216.020    12.978   -10.041
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 5 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    4.823s,    1.608s/cycle, for 3 cycles
+ wR =   20.25%, chi**2 =       711132, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.863s,    1.863s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.860s,    1.860s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.862s,    1.862s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.849s,    1.849s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.892s,    1.892s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.903s,    1.903s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.830s,    1.830s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.845s,    1.845s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.880s,    1.880s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.875s,    1.875s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.848s,    1.848s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.886s,    1.886s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.826s,    1.826s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.857s,    1.857s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.830s,    1.830s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.858s,    1.858s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.873s,    1.873s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.822s,    1.822s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.843s,    1.843s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.864s,    1.864s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.853s,    1.853s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.829s,    1.829s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.896s,    1.896s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.903s,    1.903s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.863s,    1.863s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.838s,    1.838s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.836s,    1.836s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.840s,    1.840s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.856s,    1.856s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.856s,    1.856s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.869s,    1.869s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.823s,    1.823s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.882s,    1.882s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.860s,    1.860s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.861s,    1.861s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.867s,    1.867s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.856s,    1.856s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    1.893s,    1.893s/cycle, for 1 cycles
+ wR =   20.24%, chi**2 =       710808, GOF =  11.13
+ Number of function calls: 1 No. of observations: 5774 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
